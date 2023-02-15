@@ -1,0 +1,57 @@
+.heading
+{
+    font-size: 35;
+    width: 100%;
+    margin: 0;
+}
+
+h2
+{
+    font-size: 20px !important;
+}
+
+body
+{
+    background-size: cover;
+}
+
+.sbutton
+{
+    font-size: 23 ;
+    width: 100px;
+    animation-name: Sradius;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#copy_right_footer
+{
+    bottom: 0;
+    position: fixed;
+    background-color: royalblue;
+    color: whitesmoke;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+
+}
+
+canvas
+{
+    border-color: darkblue;
+    border-width: 5px;
+    border-style: ridge;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px 5px darkgray;
+}
+
+@keyframes Sradius
+{
+    from{
+        border-top-left-radius: 50px;
+    }
+    to{
+        border-bottom-right-radius: 50px;
+    }
+}
